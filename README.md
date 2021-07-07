@@ -1,6 +1,6 @@
 # Video-Chat-app07
 
-Video-chat-v1 is a video chat app.
+Video-chat-v1 is a video chat app in which two people can connect through video and will also be able to do real time chatting.
 
 
 
