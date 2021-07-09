@@ -10,7 +10,9 @@ Check out the live demo:https://video-chat-app07.herokuapp.com/
 Technologies that I used to develop this Video-Chat-app07:
 
 NodeJS
+
 Socket.IO
+
 WebRtc
 
 
