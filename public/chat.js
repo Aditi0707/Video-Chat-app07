@@ -34,6 +34,8 @@ let iceServers = {
   ],
 };
 
+// join button to enter meeting
+
 joinButton.addEventListener("click", function () {
   if (roomInput.value == "") {
     alert("Please enter a room name");
@@ -44,7 +46,7 @@ joinButton.addEventListener("click", function () {
 });
 
 
-////chat section
+////For sending messages 
 
 button.addEventListener("click", function () {
     socket.emit("sendingMessage", {
@@ -59,6 +61,8 @@ button.addEventListener("click", function () {
   });
   
 
+//mute button
+
 muteButton.addEventListener("click", function () {
   muteFlag = !muteFlag;
   if (muteFlag) {
@@ -70,6 +74,7 @@ muteButton.addEventListener("click", function () {
   }
 });
 
+// hide camera button
 hideCameraButton.addEventListener("click", function () {
   hideCameraFlag = !hideCameraFlag;
   if (hideCameraFlag) {
@@ -80,6 +85,8 @@ hideCameraButton.addEventListener("click", function () {
     hideCameraButton.textContent = "Hide Camera";
   }
 });
+
+//meeting leave button
 
 leaveRoomButton.addEventListener("click", function () {
   socket.emit("leave", roomName); //Let's the server know that user has left the room.
