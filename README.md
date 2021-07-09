@@ -16,10 +16,14 @@ WebRtc
 
 How to run the project?
 1.Clone this repository in your local system.
+
 2. Open the command prompt from your project directory.
+
 3. Install all the dependencies with the following command:
    run npm install  
-4. Run the command node index.js.
+   
+4. Run the command node index.js
+
 5. Go to your browser and type localhost:5000 in the address bar.
 
 That's it.
