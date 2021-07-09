@@ -21,4 +21,5 @@ How to run the project?
    run npm install  
 4. Run the command node index.js.
 5. Go to your browser and type localhost:5000 in the address bar.
+
 That's it.
