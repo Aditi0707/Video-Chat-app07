@@ -18,7 +18,7 @@ WebRtc
 
 How to run the project?
 
-1.Clone this repository in your local system.
+ 1.Clone this repository in your local system.
 
 2. Open the command prompt from your project directory.
 
